@@ -4,7 +4,7 @@
 
 body {
   background: #eef3f9;
-  background-image: url(../gallery/7.jpeg);
+  background-image: url(../gallery/background.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -104,12 +104,12 @@ a {
   overflow: hidden;
 }
 
-.card-text > p {
+.card-text>p {
   color: #7f8c9b;
   margin: 0;
 }
 
-.card-content > time {
+.card-content>time {
   color: #6d7987;
   font-size: 14px;
 }
