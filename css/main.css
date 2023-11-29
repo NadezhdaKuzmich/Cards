@@ -45,13 +45,14 @@ a {
   display: grid;
   align-items: center;
   justify-items: center;
+  justify-content: center;
   margin: 0 0 50px;
   gap: 50px;
 }
 
 .cards-item {
   width: 90%;
-  min-width: 30px;
+  min-width: 300px;
 }
 
 .card {
@@ -104,12 +105,12 @@ a {
   overflow: hidden;
 }
 
-.card-text>p {
+.card-text > p {
   color: #7f8c9b;
   margin: 0;
 }
 
-.card-content>time {
+.card-content > time {
   color: #6d7987;
   font-size: 14px;
 }
@@ -143,23 +144,19 @@ footer {
 
 @media (min-width: 475px) {
   .cards-item {
-    width: 75%;
+    width: 100%;
     max-width: 380px;
   }
 }
 
-@media (min-width: 675px) {
+@media (min-width: 720px) {
   .container {
     padding: 0 40px;
   }
 
   .cards {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, auto);
     gap: 30px;
-  }
-
-  .cards-item {
-    width: 100%;
   }
 }
 
